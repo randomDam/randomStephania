@@ -96,7 +96,11 @@ void effect3(PGraphics pg) {
   int pres=20;
 
   for (int i=0; i<inputVideo.pixels.length; i+=pres) {
+<<<<<<< HEAD
     if (brightness(inputVideo.pixels[i])>150) {
+=======
+    if (brightness(inputVideo.pixels[i])>100) {
+>>>>>>> e80a46b8e6a6127897287ae6451a2f0aa3e58167
       /*
       for (int k=0; k<pres; k++) {
         pg.set(x, y, color(inputVideo.pixels[i]));

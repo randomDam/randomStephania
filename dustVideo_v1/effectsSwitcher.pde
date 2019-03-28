@@ -22,7 +22,11 @@ void effects(PGraphics pg) {
     effect3(pg);
   }
 
+<<<<<<< HEAD
   timer++;
+=======
+  //timer++;
+>>>>>>> e80a46b8e6a6127897287ae6451a2f0aa3e58167
   if (timer>timerEnd) {
     de = int(random(effectsNum));
     timer=0;

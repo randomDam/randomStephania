@@ -15,7 +15,11 @@ PGraphics canvas;
 void setup() {
   size(1400, 606, P3D);
   background(0);
+<<<<<<< HEAD
   frameRate(30);
+=======
+  frameRate(60);
+>>>>>>> e80a46b8e6a6127897287ae6451a2f0aa3e58167
 
   inputVideo = new Movie(this, "gost.mp4");
   inputVideo.play();
@@ -23,7 +27,11 @@ void setup() {
   canvas = createGraphics(fHD_width, fHD_height, P3D);
 
   outputVideo = new VideoExport(this, "export.mp4", canvas);
+<<<<<<< HEAD
   //outputVideo.setQuality(50,44000);
+=======
+  outputVideo.setQuality(50,44000);
+>>>>>>> e80a46b8e6a6127897287ae6451a2f0aa3e58167
   
   outputVideo.startMovie();
 }
